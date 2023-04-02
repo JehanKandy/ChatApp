@@ -12,7 +12,9 @@
             <input type="text" name="username" id="username" placeholder="Username">
 
             <label for="password">Password : </label>
-            <input type="password" name="username" id="username" placeholder="Password">
+            <input type="password" name="password" id="password" placeholder="Password">
+
+            butt
         </div>
         <hr>
     </div>
