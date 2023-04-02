@@ -9,7 +9,10 @@
         <hr>
         <div class="body">
             <label for="username">Username : </label>
-           \
+            <input type="text" name="username" id="username" placeholder="Username">
+
+            <label for="password">Password : </label>
+            <input type="password" name="username" id="username" placeholder="Password">
         </div>
         <hr>
     </div>
