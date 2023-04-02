@@ -4,7 +4,9 @@
     width: 40%;
     padding: 50px 60px;
 }
-
+.login-content .title{
+    text-align: center;
+}
 
 
 /* Extra small devices (phones, 600px and down) */
