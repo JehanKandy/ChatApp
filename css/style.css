@@ -1,12 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Poppins&display=swap');
+
+/*
+    font-family: 'Alkatra', cursive; -- footers
+    font-family: 'Poppins', sans-serif; -- normal text
+
+*/
+
 .login-content{
-    border: 1px solid black;
+    border: 1px solid rgb(190, 190, 190);
     margin: 50px 320px;
     width: 40%;
     padding: 50px 60px;
+    border-radius: 5px;
 }
 .login-content .title{
     text-align: center;
     font-size: 30px;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -17,6 +27,11 @@
         margin: 50px 40px;
         width: 80%;
         padding: 20px 30px;
+    }
+    .login-content .title{
+        text-align: center;
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
     }
 }
 
