@@ -6,9 +6,12 @@
         <div class="title">
         <i class="fab fa-facebook-messenger"></i> Online Chatting
         </div>
+        <hr>
         <div class="body">
-            
+            <label for="username">Username : </label>
+           \
         </div>
+        <hr>
     </div>
 </div>
 
