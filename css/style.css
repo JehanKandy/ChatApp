@@ -1,8 +1,19 @@
 .login-content{
     border: 1px solid black;
-    margin: 50px 300px;
-    width: 45%;
+    margin: 50px 320px;
+    width: 40%;
     padding: 50px 60px;
 }
 
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .login-content{
+        border: 1px solid black;
+        margin: 50px 40px;
+        width: 80%;
+        padding: 20px 30px;
+    }
+}
 
