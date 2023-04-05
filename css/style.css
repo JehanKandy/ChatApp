@@ -18,6 +18,9 @@
     font-size: 30px;
     font-family: 'Poppins', sans-serif;
 }
+.login-content .body input{
+    width: 100%;
+}
 
 
 /* Extra small devices (phones, 600px and down) */

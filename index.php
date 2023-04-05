@@ -8,13 +8,13 @@
         </div>
         <hr>
         <div class="body">
-            <label for="username">Username : </label>
-            <input type="text" name="username" id="username" placeholder="Username">
+            <label for="username">Username : </label> <br>
+            <input type="text" name="username" id="username" placeholder="Username"> <br>
 
-            <label for="password">Password : </label>
-            <input type="password" name="password" id="password" placeholder="Password">
+            <label for="password">Password : </label> <br>
+            <input type="password" name="password" id="password" placeholder="Password"> <br>
 
-            butt
+            
         </div>
         <hr>
     </div>
