@@ -17,4 +17,4 @@
   
 # Copyright and license
 
-Copyright 2021–2022 [JehanKandy](https://github.com/JehanKandy). <b>Train Ticket Booking System</b> released under the [MIT License](https://github.com/JehanKandy/ChatApp/blob/main/LICENSEs)
+Copyright 2021–2022 [JehanKandy](https://github.com/JehanKandy). <b>Online Chat Application</b> released under the [MIT License](https://github.com/JehanKandy/ChatApp/blob/main/LICENSEs)
