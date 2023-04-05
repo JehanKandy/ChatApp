@@ -47,6 +47,16 @@
         }else{
             $check_user = "SELECT * FROM user_tbl WHERE email = '$email'";
             $check_user_result = mysqli_query($con, $check_user);
+            $check_user_row = mysqli_fetch_assoc($check_user_result);
+            $check_user_nor = mysqli_num_rows($check_user_result);
+
+            if($check_user_nor > 0){
+                return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
+                <strong>Email : </strong> invalid Email...!
+                <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
+        </div>";
+            }
+            
         }
         
     }
