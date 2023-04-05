@@ -8,7 +8,10 @@
     function reg_user($username, $email, $pass, $cpass){
         $con = Connection();
 
-        echo $username;
+        if(empty($username)){
+            return "Empty Username";
+        }
+        
     }
 
 
