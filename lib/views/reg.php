@@ -30,11 +30,11 @@
                 <label for="cpassword">Confirm Password : </label> <br>
                 <input type="password" name="cpass" id="cpass" placeholder="Confirm Password"> <br>
 
-                <input type="submit" value="Reg" name="reg">
+
             
-                <!-- <button type="submit" class="login-btn" name="reg">
+                <button type="submit" class="login-btn" name="reg">
                    <i class="fas fa-user-plus"></i> &nbsp;&nbsp; Create Account
-                </button> -->
+                </button>
             </form>
             Already have an Account ? <a href="../../index.php">Login</a>
         </div>
