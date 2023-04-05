@@ -9,17 +9,11 @@
         <hr>
         <div class="body">
             <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST">
-                <label for="username">Username : </label> <br>
-                <input type="text" name="username" id="username" placeholder="Username"> <br>
 
+                <h3>Forget Password</h3>
+                <p>Enter your Email Address : </p>
                 <label for="email">Email : </label> <br>
                 <input type="email" name="email" id="email" placeholder="Email"> <br>
-
-                <label for="password">Password : </label> <br>
-                <input type="password" name="pass" id="pass" placeholder="Password"> <br>
-
-                <label for="cpassword">Confirm Password : </label> <br>
-                <input type="password" name="cpass" id="cpass" placeholder="Confirm Password"> <br>
             
                 <button type="submit" class="login-btn" name="reg">
                    <i class="fas fa-user-plus"></i> &nbsp;&nbsp; Create Account
