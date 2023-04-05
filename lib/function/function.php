@@ -91,6 +91,16 @@
         else{
             $check_user = "SELECT * FROM user_tbl WHERE username = '$username' && pass = '$pass' && is_active = 1";
             $check_user_result = mysqli_query($con, $check_user);
+            $check_user_nor = mysqli_num_rows($check_user_result);
+
+            if($check_user_nor == 0){
+
+            }else{
+                return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
+                        <strong>User : </strong> Does not exists...!
+                        <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
+                </div>";
+            }
         }
     }
 
