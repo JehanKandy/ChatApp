@@ -16,10 +16,10 @@
                 <input type="password" name="password" id="password" placeholder="Password"> <br>
             
                 <button type="submit" class="login-btn">
-                    login
+                   <i class="fas fa-user-alt"></i> &nbsp;&nbsp; login
                 </button>
-
             </form>
+            <a href="#">Forget Password ? </a>
         </div>
         <hr>
     </div>
