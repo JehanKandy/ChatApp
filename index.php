@@ -19,7 +19,7 @@
                    <i class="fas fa-user-alt"></i> &nbsp;&nbsp; login
                 </button>
             </form>
-            <a href="#">Forget Password ? </a>
+            <a href="#">Forget Password ? </a> <br>
             Don't have an Account ? <a href="#">Create One</a>
         </div>
         <hr>
