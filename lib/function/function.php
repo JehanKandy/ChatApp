@@ -57,7 +57,18 @@
                     </div>";
             }
             else{
-                
+                $insert_user = "INSERT INTO user_tbl(username,email,pass,is_active,is_pending,join_date)VALUES('$username','$email','$pass',1,0,NOW())";
+                $insert_user_result = mysqli_query($con, $insert_user);
+
+                if($insert_user_result){
+                    header("location:../../index.php");
+                }
+                elseif(!$check_user_result){
+                    return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
+                            <strong>ERROR : </strong> 
+                            <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
+                    </div>";
+                }
             }
         }
         
