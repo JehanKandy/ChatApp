@@ -22,7 +22,7 @@
                 <input type="password" name="cpass" id="cpass" placeholder="Confirm Password"> <br>
             
                 <button type="submit" class="login-btn" name="reg">
-                   <i class="fas fa-user-alt"></i> &nbsp;&nbsp; Create Account
+                   <i class="fas fa-user-plus"></i> &nbsp;&nbsp; Create Account
                 </button>
             </form>
             Already have an Account ? <a href="../../index.php">Login</a>
