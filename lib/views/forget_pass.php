@@ -21,7 +21,7 @@
                    <i class="fas fa-user-plus"></i> &nbsp;&nbsp; Get Verification OTP
                 </button>
             </form>
-            Already have an Account ? <a href="../../index.php">Login</a>
+            GO back <a href="../../index.php">Back</a>
         </div>
         <hr>
     </div>
