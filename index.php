@@ -8,6 +8,10 @@
         </div>
         <hr>
         <div class="body">
+            <?php 
+                include("lib/function/function.php");
+                
+            ?>
             <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST">
                 <label for="username">Username : </label> <br>
                 <input type="text" name="username" id="username" placeholder="Username"> <br>
