@@ -8,14 +8,18 @@
         </div>
         <hr>
         <div class="body">
-            <label for="username">Username : </label> <br>
-            <input type="text" name="username" id="username" placeholder="Username"> <br>
+            <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST">
+                <label for="username">Username : </label> <br>
+                <input type="text" name="username" id="username" placeholder="Username"> <br>
 
-            <label for="password">Password : </label> <br>
-            <input type="password" name="password" id="password" placeholder="Password"> <br>
-
-            <button class="btn btn-primary">hi</button>
+                <label for="password">Password : </label> <br>
+                <input type="password" name="password" id="password" placeholder="Password"> <br>
             
+                <button type="submit" class="login-btn">
+                    HI
+                </button>
+
+            </form>
         </div>
         <hr>
     </div>
