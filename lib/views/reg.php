@@ -15,7 +15,7 @@
                 <label for="password">Password : </label> <br>
                 <input type="password" name="password" id="password" placeholder="Password"> <br>
             
-                <button type="submit" class="login-btn">
+                <button type="submit" class="login-btn" name="reg">
                    <i class="fas fa-user-alt"></i> &nbsp;&nbsp; login
                 </button>
             </form>
