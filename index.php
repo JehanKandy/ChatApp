@@ -14,6 +14,7 @@
             <label for="password">Password : </label> <br>
             <input type="password" name="password" id="password" placeholder="Password"> <br>
 
+            <button class="btn btn-primary">hi</button>
             
         </div>
         <hr>
