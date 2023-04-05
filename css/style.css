@@ -46,6 +46,8 @@
 .login-content .body a{
     color: rgb(238, 32, 238);
     text-decoration: none;
+    font-weight: 600;
+    margin-top: 5px;
 }
 
 
