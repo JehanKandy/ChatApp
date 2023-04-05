@@ -7,6 +7,8 @@
 
     function reg_user($username, $email, $pass, $cpass){
         $con = Connection();
+
+        echo $username;
     }
 
 
