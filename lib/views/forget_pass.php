@@ -15,7 +15,7 @@
                 <label for="email">Email : </label> <br>
                 <input type="email" name="email" id="email" placeholder="Email"> <br>
             
-                <button type="submit" class="login-btn" name="reg">
+                <button type="submit" class="login-btn" name="forget_pass">
                    <i class="fas fa-user-plus"></i> &nbsp;&nbsp; Create Account
                 </button>
             </form>
