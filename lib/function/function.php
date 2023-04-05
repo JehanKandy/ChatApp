@@ -24,25 +24,25 @@
         }
         elseif(empty($email)){
             return "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
-                        <strong>Username : </strong> Connot be Empty...!
+                        <strong>Email : </strong> Connot be Empty...!
                         <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
                 </div>";
         }
         elseif(empty($pass)){
             return "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
-                        <strong>Username : </strong> Connot be Empty...!
+                        <strong>Password : </strong> Connot be Empty...!
                         <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
                 </div>";
         }
         elseif(empty($cpass)){
             return "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
-                        <strong>Username : </strong> Connot be Empty...!
+                        <strong>Confirm Password : </strong> Connot be Empty...!
                         <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
                 </div>";
         }
         elseif(empty($username)){
             return "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
-                        <strong>Username : </strong> Connot be Empty...!
+                        <strong>Password and Confirm Password : </strong> not Match...!
                         <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
                 </div>";
         }
