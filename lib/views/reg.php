@@ -1,5 +1,5 @@
-<?php include("lib/layouts/header.php"); ?>
-<link rel="stylesheet" href="css/style.css">
+<?php include("../layouts/header.php"); ?>
+<link rel="stylesheet" href="../../css/style.css">
 
 <div class="container">
     <div class="login-content">
@@ -19,11 +19,10 @@
                    <i class="fas fa-user-alt"></i> &nbsp;&nbsp; login
                 </button>
             </form>
-            <a href="#">Forget Password ? </a> <br>
-            Don't have an Account ? <a href="#">Create One</a>
+            Already have an Account ? <a href="../../index.php">Create One</a>
         </div>
         <hr>
     </div>
 </div>
 
-<script src="js/style.js"></script>
+<script src="../../js/style.js"></script>
