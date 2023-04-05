@@ -52,9 +52,9 @@
 
             if($check_user_nor > 0){
                 return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
-                <strong>Email : </strong> invalid Email...!
-                <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
-        </div>";
+                            <strong>User : </strong> already exists...!
+                            <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
+                    </div>";
             }
             
         }
