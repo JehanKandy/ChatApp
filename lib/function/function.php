@@ -92,9 +92,14 @@
             $check_user = "SELECT * FROM user_tbl WHERE username = '$username' && pass = '$pass' && is_active = 1";
             $check_user_result = mysqli_query($con, $check_user);
             $check_user_nor = mysqli_num_rows($check_user_result);
+            $check_user_row = mysqli_fetch_assoc($check_user_result);
 
             if($check_user_nor == 0){
-
+                if($check_user_row['user_type'] == 'user'){
+                    setcookie('login',$check_user_row['email'],time()+60*60,'/');
+                    $_SESSION['LoginSession'] = $check_user_row['email'];
+                    header("location:../routes/user.php");  
+                }
             }else{
                 return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
                         <strong>User : </strong> Does not exists...!
