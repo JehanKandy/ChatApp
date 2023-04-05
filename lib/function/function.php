@@ -33,7 +33,7 @@
                         <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
                 </div>";
         }
-        elseif(empty($username)){
+        elseif($pass != $cpass){
             return "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
                         <strong>Password and Confirm Password : </strong> not Match...!
                         <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
@@ -44,6 +44,9 @@
                     <strong>Email : </strong> invalid Email...!
                     <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
             </div>";
+        }else{
+            $check_user = "SELECT * FROM user_tbl WHERE email = '$email'";
+            $check_user_result = mysqli_query($con, $check_user);
         }
         
     }
