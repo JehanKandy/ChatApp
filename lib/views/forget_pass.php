@@ -18,7 +18,7 @@
                 <p>The verification OTP will send to your Email Address</p>
 
                 <button type="submit" class="login-btn" name="forget_pass">
-                   <i class="fas fa-user-plus"></i> &nbsp;&nbsp; Get Verification OTP
+                   <i class="fas fa-key"></i> &nbsp;&nbsp; Get Verification OTP
                 </button>
             </form>
             GO back <a href="../../index.php">Back</a>
