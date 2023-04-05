@@ -41,7 +41,7 @@
 .login-content .body .login-btn:hover{
     cursor: pointer;
     background-image: linear-gradient(to right, rgb(4, 106, 207), rgb(238, 32, 238));
-    
+    box-shadow: 10px 10px 5px #aaaaaa;
 }
 
 
