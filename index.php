@@ -20,7 +20,7 @@
                 </button>
             </form>
             <a href="#">Forget Password ? </a> <br>
-            Don't have an Account ? <a href="#">Create One</a>
+            Don't have an Account ? <a href="lib/views/reg.php">Create One</a>
         </div>
         <hr>
     </div>
