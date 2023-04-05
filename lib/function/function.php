@@ -88,6 +88,10 @@
                     <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
             </div>";
         }
+        else{
+            $check_user = "SELECT * FROM user_tbl WHERE username = '$username' && pass = '$pass' && is_active = 1";
+            $check_user_result = mysqli_query($con, $check_user);
+        }
     }
 
 
