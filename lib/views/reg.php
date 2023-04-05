@@ -17,7 +17,7 @@
                 }
             ?>
 
-            <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST">
+            <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="post">
                 <label for="username">Username : </label> <br>
                 <input type="text" name="username" id="username" placeholder="Username"> <br>
 
