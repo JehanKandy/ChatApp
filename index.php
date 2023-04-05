@@ -20,6 +20,7 @@
                 </button>
             </form>
             <a href="#">Forget Password ? </a>
+            Don't have an Account ? <a href="#">Create One</a>
         </div>
         <hr>
     </div>
