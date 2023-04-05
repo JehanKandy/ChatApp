@@ -16,7 +16,7 @@
                 <input type="password" name="password" id="password" placeholder="Password"> <br>
             
                 <button type="submit" class="login-btn">
-                    HI
+                    login
                 </button>
 
             </form>
