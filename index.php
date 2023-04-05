@@ -19,7 +19,7 @@
                    <i class="fas fa-user-alt"></i> &nbsp;&nbsp; login
                 </button>
             </form>
-            <a href="#">Forget Password ? </a> <br>
+            <a href="lib/views/forget_pass.php">Forget Password ? </a> <br>
             Don't have an Account ? <a href="lib/views/reg.php">Create One</a>
         </div>
         <hr>
