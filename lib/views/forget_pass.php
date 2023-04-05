@@ -14,9 +14,11 @@
                 <p>Enter your Email Address : </p>
                 <label for="email">Email : </label> <br>
                 <input type="email" name="email" id="email" placeholder="Email"> <br>
-            
+
+                <p>The verification OTP will send to your Email Address</p>
+
                 <button type="submit" class="login-btn" name="forget_pass">
-                   <i class="fas fa-user-plus"></i> &nbsp;&nbsp; Create Account
+                   <i class="fas fa-user-plus"></i> &nbsp;&nbsp; Get Verification OTP
                 </button>
             </form>
             Already have an Account ? <a href="../../index.php">Login</a>
