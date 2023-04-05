@@ -10,10 +10,10 @@
         <div class="body">
             <?php 
                 include("lib/function/function.php");
-
-                $result = login_user($_POST['username'], md5($_POST['password']));
-                echo $result;
-
+                if(isset($_POST['login'])){
+                    $result = login_user($_POST['username'], md5($_POST['password']));
+                    echo $result;
+                }
             ?>
             <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST">
                 <label for="username">Username : </label> <br>
