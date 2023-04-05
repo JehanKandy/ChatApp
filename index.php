@@ -10,6 +10,8 @@
         <div class="body">
             <?php 
                 include("lib/function/function.php");
+
+                $result = login_user($_POST['username'], md5($_POST['password']));
                 
             ?>
             <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST">
