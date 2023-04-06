@@ -4,8 +4,8 @@
 <?php 
     include("../function/function.php");
 
-    if(empty()){
-        
+    if(empty($_SESSION['LoginSession'])){
+        header("location:../../index.php");
     }
 
 ?>
