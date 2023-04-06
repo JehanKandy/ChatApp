@@ -108,6 +108,7 @@
     color: red;
     font-weight: 500;    
     transition: 0.5s;
+    backdrop-filter: blur(5px);
 }
 .logout-btn:hover{
     cursor: pointer;
