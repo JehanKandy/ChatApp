@@ -11,8 +11,8 @@
                 <div class="post">University Student</div>
             </div>
         </div>
+        <?php include("../layouts/loged_footer.php");?>
     </div>
-    <?php include("../layouts/loged_footer.php");?>
 </div>
 
 
