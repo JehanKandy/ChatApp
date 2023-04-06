@@ -109,7 +109,7 @@
     font-weight: 500;    
     transition: 0.5s;
 }
-.login-btn:hover{
+.logout-btn:hover{
     cursor: pointer;
     background-color: red;
     color: white;
