@@ -6,8 +6,10 @@
         <div class="info">
             <img src="../../images/cover.jpg" alt="" class="cover-img">
             <img src="../../images/user-pimg.png" alt="" class="user-pimg">
-            <div class="user-name">Jehan Weerasuriya</div>
-            <div class="post">University Student</div>
+            <div class="name-info">
+                <div class="user-name">Jehan Weerasuriya</div>
+                <div class="post">University Student</div>
+            </div>
         </div>
     </div>
 </div>
