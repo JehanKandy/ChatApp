@@ -4,7 +4,9 @@
 <div class="user-content">
     <div class="container">
         <div class="info">
-            
+            <div class="cover-img">
+                hi
+            </div>
         </div>
     </div>
 </div>
