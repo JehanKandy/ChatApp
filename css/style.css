@@ -80,9 +80,10 @@
 }
 .user-content .info .post{
     font-size: 20px;
+    font-weight: 500;
 }
 .user-content .info .name-info{
     color: white;
-    margin-top: -250px;
-    backdrop-filter: blur(5px);
+    margin-top: -200px;
+    margin-left: 300px;
 }
