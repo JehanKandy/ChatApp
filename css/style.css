@@ -58,7 +58,7 @@
     height: 100%;
 }
 .user-content .info .cover-img{
-    height: 350px;
+    height: 550px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto;
@@ -72,5 +72,6 @@
     background-position: center;
     background-size: cover;
     border-radius: 100px;
-    margin-top: -110px;
+    margin-top: -280px;
+    margin-left: 55px;
 }
