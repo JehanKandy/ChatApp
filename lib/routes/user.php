@@ -5,7 +5,7 @@
     <div class="container">
         <div class="info">
             <div class="cover-img">
-                hi
+                <img src="../../images/796847.jpg" alt="">
             </div>
         </div>
     </div>
