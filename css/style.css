@@ -55,6 +55,7 @@
     height: 100vh;
 }
 .user-content .info{
-    
+    backdrop-filter: blur(5px);
+    height: 50vh;
 }
 
