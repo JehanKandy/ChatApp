@@ -112,6 +112,7 @@
 .login-btn:hover{
     cursor: pointer;
     background-color: red;
+    color: white;
 }
 
 .footer-content a{
