@@ -89,5 +89,6 @@
 }
 
 .footer-content{
-    
+    border: 2px solid rgb(163, 163, 163);
+    margin-top: 50px;
 }
