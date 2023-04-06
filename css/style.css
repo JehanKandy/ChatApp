@@ -82,5 +82,7 @@
     font-size: 20px;
 }
 .user-content .info .name-info{
+    color: white;
     margin-top: -250px;
+    backdrop-filter: blur(5px);
 }
