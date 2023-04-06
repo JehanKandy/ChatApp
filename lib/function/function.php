@@ -98,12 +98,12 @@
                 if($check_user_row['user_type'] == 'user'){
                     setcookie('login',$check_user_row['email'],time()+60*60,'/');
                     $_SESSION['LoginSession'] = $check_user_row['email'];
-                    header("location:../routes/user.php");  
+                    header("location:routes/user.php");  
                 }
                 if($check_user_row['user_type'] == 'admin'){
                     setcookie('login',$check_user_row['email'],time()+60*60,'/');
                     $_SESSION['LoginSession'] = $check_user_row['email'];
-                    header("location:../routes/admin.php");  
+                    header("location:routes/admin.php");  
                 }
             }else{
                 return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
