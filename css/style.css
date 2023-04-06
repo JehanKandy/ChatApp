@@ -51,7 +51,7 @@
 }
 
 .user-content{
-    background-image: url("images/user.jpg");
-    width: 100vh;
+    background-image: url("../images/user.jpg");
+    height: 100vh;
 }
 
