@@ -67,6 +67,9 @@
     margin-top: 50px;
 }
 .user-content .info .user-pimg{
-    width: 100%;
-    height: 100%;
+    width: 10%;
+    height: 10%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 100%;
 }
