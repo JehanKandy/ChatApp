@@ -3,7 +3,7 @@
 
 <div class="user-content">
     <div class="container">
-        <button class="btn btn-danger">Logout</button>
+        <a href=""><button class="logout-btn">Logout</button></a>
         <div class="info">
             <img src="../../images/cover.jpg" alt="" class="cover-img">
             <img src="../../images/user-pimg.png" alt="" class="user-pimg">
