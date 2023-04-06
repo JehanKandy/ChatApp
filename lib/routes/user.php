@@ -4,9 +4,7 @@
 <div class="user-content">
     <div class="container">
         <div class="info">
-            <div class="cover-img">
-                <img src="../../images/796847.jpg" alt="">
-            </div>
+            <img src="../../images/796847.jpg" alt="" class="cover-img">
         </div>
     </div>
 </div>
