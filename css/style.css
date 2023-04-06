@@ -64,7 +64,7 @@
     background-size: auto;
     width: 100%;
     border-radius: 5px;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 .user-content .info .user-pimg{
     width: 200px;
@@ -96,6 +96,22 @@
     text-align: center;
     border-radius: 5px;
     backdrop-filter: blur(5px);
+}
+.logout-btn{
+    margin-top: 20px;
+    padding: 10px 0;
+    width: 10%;
+    margin-left: 90%;
+    border: 2px solid red;
+    border-radius: 5px;
+    background: transparent;
+    color: red;
+    font-weight: 500;    
+    transition: 0.5s;
+}
+.login-btn:hover{
+    cursor: pointer;
+    background-color: red;
 }
 
 .footer-content a{
