@@ -13,8 +13,11 @@
         </div>
     </div>
 </div>
-
-<?php include("../layouts/loged_footer.php"); ?>
+<footer>
+    <div class="footer-content">
+        Developed By <a href="https://github.com/JehanKandy" target="_blank">JEHANKANDY</a>&copy; 2021-2023 all rights reserved
+    </div>
+</footer>
 <script src="../../js/style.js"></script>
 
 
