@@ -55,11 +55,14 @@
     height: 100vh;
 }
 .user-content .info{
-    border: 2px solid black;
     height: 100%;
 }
 .user-content .info .cover-img{
     height: 350px;
     background-position: center;
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 50px;
 }
