@@ -55,6 +55,9 @@
     height: 100vh;
 }
 .user-content .info{
-
+    border: 2px solid black;
+    height: 100%;
 }
-
+.user-content .info .cover-img{
+    height: 150px;
+}
