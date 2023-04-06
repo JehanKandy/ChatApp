@@ -14,6 +14,7 @@
     </div>
 </div>
 
+<?php include("../layouts/loged_footer.php"); ?>
 <script src="../../js/style.js"></script>
 
 
