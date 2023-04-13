@@ -58,6 +58,14 @@
                                     <span>Email : </span>  <input type="email" class="dash-input" disabled><br><br>
                                 </div>
                             </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <span>Last Name : </span>  <input type="text" class="dash-input" disabled><br><br>
+                                </div>
+                                <div class="col-md-6">
+                                   <span>Role : </span>  <input type="text" class="dash-input" disabled><br><br>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
