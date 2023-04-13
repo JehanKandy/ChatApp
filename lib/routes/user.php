@@ -34,6 +34,7 @@
                             <i class="fab fa-whatsapp"></i> Whatsapp  +94 711758851   <br>
                             <i class="fab fa-linkedin"></i> Linkedin <br>
                             <i class="fab fa-github"></i> GitHub <br>
+                            <i class="fab fa-instagram"></i> Instagram <br>
 
                         </div>
                     </div>
