@@ -141,6 +141,10 @@
 .social-info .body i{
     line-height: 1.8;
 }
+.social-info .body .social-btn{
+    width: 100%;
+}
+
 .footer-content a{
     text-decoration: none;
 }
