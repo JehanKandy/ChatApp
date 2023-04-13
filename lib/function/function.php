@@ -114,9 +114,9 @@
         }
     }
 
-    function social_links(){
+    function social_links($fb,$whats,$link,$git,$inster){
         $con = Connection();
-        
+
     }
 
 
