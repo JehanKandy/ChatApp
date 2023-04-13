@@ -31,7 +31,7 @@
                         <div class="title">Stay Updated</div>
                         <div class="body">
                             <span style="color:#3b5998;"><i class="fab fa-facebook"></i> Facebook </span> <br>
-                            <span style="color:rgb(52 183 241);"><i class="fab fa-whatsapp"></i> Whatsapp </span>   +94 711758851 <br>
+                            <span style="color:#25D366;"><i class="fab fa-whatsapp"></i> Whatsapp </span>   +94 711758851 <br>
                             <i class="fab fa-linkedin"></i> Linkedin <br>
                             <i class="fab fa-github"></i> GitHub <br>
                             <i class="fab fa-instagram"></i> Instagram <br>
