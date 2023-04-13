@@ -4,7 +4,12 @@
 <div class="user-content">
     <div class="container">
         <div class="update-info">
-            <a href=""><button class="bck-btn">Back</button></a>
+            <a href="user.php"><button class="bck-btn">Back</button></a>
+
+            <div class="social-media">
+                
+            </div>
+
         </div>
     </div>
 </div>
