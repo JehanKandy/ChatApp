@@ -167,9 +167,11 @@
     border-left: none;
     border-bottom: 1px solid rgb(42, 92, 230);
     padding-left: 15px;
-    
-
 }
+.user-info-btn{
+    width: 100%;
+}
+
 .footer-content a{
     text-decoration: none;
 }

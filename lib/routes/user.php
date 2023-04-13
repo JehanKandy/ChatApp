@@ -81,7 +81,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
-                                    <span>Address : </span>  <input type="text" class="dash-input" disabled><br><br>
+                                    <a href=""><button class="user-info-btn">Update Information</button></a>
                                 </div>
                             </div>
                         </div>
