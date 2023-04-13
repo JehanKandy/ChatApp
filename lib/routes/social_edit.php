@@ -3,7 +3,9 @@
 
 <div class="user-content">
     <div class="contaioner">
-        
+        <div class="update-info">
+            
+        </div>
     </div>
 </div>
 
