@@ -122,6 +122,13 @@
     margin: 150px 0;
 }
 
+.social-info, .user-info{
+    height: 100%;
+    border-radius: 5px;
+    backdrop-filter: blur(5px);
+    border: 2px solid rgb(219, 218, 218);
+
+}
 
 
 .footer-content a{
