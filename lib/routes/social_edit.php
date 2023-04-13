@@ -10,7 +10,7 @@
                 <div class="row">
                     <div class="col-md-6">
                         Facebook :  <br>
-                        <input type="text" class="dash-input" value="Jehan" disabled>
+                        <input type="text" class="dash-input" value="Jehan" >
                     </div>
                     <div class="col-md-6">
 
