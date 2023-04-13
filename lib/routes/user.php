@@ -31,10 +31,10 @@
                         <div class="title">Stay Updated</div>
                         <div class="body">
                             <span style="color:#3b5998;"><i class="fab fa-facebook"></i> Facebook </span> <br>
-                            <span style="color:#25D366;"><i class="fab fa-whatsapp"></i> Whatsapp </span>   +94 711758851 <br>
+                            <span style="color:#25D366;"><i class="fab fa-whatsapp"></i> Whatsapp </span>  <br>
                             <span style="color:#0072b1;"><i class="fab fa-linkedin"></i> Linkedin </span> <br>
-                            <span style="color:#171515"><i class="fab fa-github"></i> GitHub </span> <br>
-                            <i class="fab fa-instagram"></i> Instagram <br>
+                            <span style="color:#171515;"><i class="fab fa-github"></i> GitHub </span> <br>
+                            <span style="color:#E1306C;"><i class="fab fa-instagram"></i> Instagram </span> <br>
 
                         </div>
                     </div>
