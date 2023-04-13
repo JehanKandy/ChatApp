@@ -47,7 +47,7 @@
                         <div class="body">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <span>Username : </span>  <input type="text" class="dash-input" disabled><br><br>
+                                    <span>Username : </span>  <input type="text" class="dash-input" value="Jehan" disabled><br><br>
                                 </div>
                                 <div class="col-md-6">
                                    <span>First Name : </span>  <input type="text" class="dash-input" disabled><br><br>
