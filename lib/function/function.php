@@ -117,6 +117,9 @@
     function social_links($fb,$whats,$link,$git,$inster){
         $con = Connection();
 
+        if(empty($fb) || empty($whats) || empty($link) || empty($git) || empty($inster)){
+            
+        }
     }
 
 
