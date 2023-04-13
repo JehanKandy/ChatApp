@@ -27,10 +27,10 @@
             
             <div class="row gx-3">
                 <div class="col-md-4">
-                    <div class="p-3" style="background:red;">Custom column padding</div>
+                    <div class="p-3">Custom column padding</div>
                 </div>
                 <div class="col">
-                    <div class="p-3" style="background:green;">Custom column padding</div>
+                    <div class="p-3">Custom column padding</div>
                 </div>
             </div>
             
