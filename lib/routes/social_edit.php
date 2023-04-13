@@ -27,6 +27,12 @@
                         <input type="text" class="dash-input" name="gitHub"> <br><br>     
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        Instagram :  <br>
+                        <input type="text" class="dash-input" name="instagram"> <br><br>   
+                    </div>
+                </div>
             </div>
             <br>
 
