@@ -32,7 +32,9 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="p-3 user-info">Custom column padding</div>
+                    <div class="p-3 user-info">
+                        <div class="title">My Info</div>
+                    </div>
                 </div>
             </div>
             
