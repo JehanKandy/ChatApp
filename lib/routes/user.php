@@ -46,14 +46,11 @@
                         <div class="title">My Info</div>
                         <div class="body">
                             <div class="row">
-                                <div class="col-md-4">
+                                <div class="col-md-6">
                                     Username : <input type="text" name="" id="" disabled>
                                 </div>
                                 <div class="col-md-4">
                                     First Name : Jehan
-                                </div>
-                                <div class="col-md-4">
-                                    Last Name : Weerasuriya
                                 </div>
                             </div>
                         </div>
