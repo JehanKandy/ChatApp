@@ -50,7 +50,7 @@
                                     <span>Username : </span>  <input type="text" class="dash-input" disabled><br><br>
                                 </div>
                                 <div class="col-md-6">
-                                   <span>First Name : </span>  <input type="text" class="dash-input" disabled>
+                                   <span>First Name : </span>  <input type="text" class="dash-input" disabled><br><br>
                                 </div>
                             </div>
                             <div class="row">
