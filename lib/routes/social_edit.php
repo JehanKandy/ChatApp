@@ -1,6 +1,16 @@
 <?php include("../layouts/header.php"); ?>
 <link rel="stylesheet" href="../../css/style.css">
 
+<?php 
+    include("../function/function.php");
+
+    if(empty($_SESSION['LoginSession'])){
+        header("location:../../index.php");
+    }
+
+?>
+
+
 <div class="user-content">
     <div class="container">
         <div class="update-info">
