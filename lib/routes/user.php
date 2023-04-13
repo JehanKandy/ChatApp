@@ -47,10 +47,15 @@
                         <div class="body">
                             <div class="row">
                                 <div class="col-md-6">
-                                    Username : <input type="text" class="dash-input" disabled >
+                                    Username : <input type="text" class="dash-input" disabled>
                                 </div>
                                 <div class="col-md-6">
                                     First Name : <input type="text" class="dash-input" disabled>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    Email : <input type="email" class="dash-input" disabled>
                                 </div>
                             </div>
                         </div>
