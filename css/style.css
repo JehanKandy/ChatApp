@@ -158,6 +158,22 @@
     color: white;
     box-shadow: 10px 10px 5px #aaaaaa;
 }
+.bck-btn{
+    width: 20%;
+    margin-top: 25px;
+    border: 1px solid rgb(42, 92, 230);
+    color: rgb(42, 92, 230);
+    background: transparent;
+    height: 50px;
+    border-radius: 2px;
+    transition: 0.5s;
+}
+.bck-btn:hover{
+    background-color: rgb(42, 92, 230);
+    cursor: pointer;
+    color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
 
 .dash-input{
     width: 100%;
