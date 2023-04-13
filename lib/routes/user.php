@@ -47,36 +47,36 @@
                         <div class="body">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <span>Username : </span>  <input type="text" class="dash-input" value="Jehan" disabled><br><br>
+                                    <span>Username : </span>  <input type="text" class="dash-input" value="" disabled><br><br>
                                 </div>
                                 <div class="col-md-6">
-                                   <span>First Name : </span>  <input type="text" class="dash-input" disabled><br><br>
+                                   <span>First Name : </span>  <input type="text" class="dash-input" value="" disabled><br><br>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
-                                    <span>Email : </span>  <input type="email" class="dash-input" disabled><br><br>
+                                    <span>Email : </span>  <input type="email" class="dash-input" value="" disabled><br><br>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-6">
-                                    <span>Last Name : </span>  <input type="text" class="dash-input" disabled><br><br>
+                                    <span>Last Name : </span>  <input type="text" class="dash-input" value="" disabled><br><br>
                                 </div>
                                 <div class="col-md-6">
-                                   <span>Role : </span>  <input type="text" class="dash-input" disabled><br><br>
+                                   <span>Role : </span>  <input type="text" class="dash-input" value="" disabled><br><br>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
-                                    <span>Address : </span>  <input type="text" class="dash-input" disabled><br><br>
+                                    <span>Address : </span>  <input type="text" class="dash-input" value="" disabled><br><br>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-6">
-                                    <span>Mobile Number : </span>  <input type="text" class="dash-input" disabled><br><br>
+                                    <span>Mobile Number : </span>  <input type="text" class="dash-input" value="" disabled><br><br>
                                 </div>
                                 <div class="col-md-6">
-                                   <span>Data of Birth : </span>  <input type="text" class="dash-input" disabled><br><br>
+                                   <span>Data of Birth : </span>  <input type="text" class="dash-input" value="" disabled><br><br>
                                 </div>
                             </div>
                             <div class="row">
