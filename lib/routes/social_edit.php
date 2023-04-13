@@ -8,7 +8,7 @@
 
             <div class="social-media">
                 Hi all
-            </div>
+            </div><br>
 
         </div>
     </div>
