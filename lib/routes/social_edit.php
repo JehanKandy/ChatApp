@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="../../css/style.css">
 
 <div class="user-content">
-    <div class="contaioner">
+    <div class="container">
         <div class="update-info">
             <a href=""><button class="bck-btn">Back</button></a>
         </div>
