@@ -177,6 +177,12 @@
     transition: 0.5s;
     color: green;
 }
+.user-info-btn:hover{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
 
 .footer-content a{
     text-decoration: none;
