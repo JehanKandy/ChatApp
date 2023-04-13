@@ -45,7 +45,14 @@
                     <div class="p-3 user-info">
                         <div class="title">My Info</div>
                         <div class="body">
-                            
+                            <div class="row">
+                                <div class="col-md-6">
+                                    Name : Jehan
+                                </div>
+                                <div class="col-md-6">
+                                    Last Name : Weerasuriya
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
