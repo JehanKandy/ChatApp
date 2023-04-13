@@ -138,6 +138,9 @@
 .social-info .body{
     font-size: 20px;
 }
+.user-info .body span{
+    margin-top: 15px;
+}
 .social-info .body i{
     line-height: 1.8;
 }
