@@ -168,6 +168,7 @@
     border-radius: 2px;
     transition: 0.5s;
     margin-bottom: 50px;
+    backdrop-filter: blur(5px);
 }
 .bck-btn:hover{
     background-color: rgb(42, 92, 230);
