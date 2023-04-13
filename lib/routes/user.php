@@ -30,7 +30,7 @@
                     <div class="p-3 social-info">
                         <div class="title">Stay Updated</div>
                         <div class="body">
-                            <p style="color:#3b5998;"><i class="fab fa-facebook"></i> Facebook </p>
+                            <div style="color:#3b5998;"><i class="fab fa-facebook"></i> Facebook </div>
                             <i class="fab fa-whatsapp"></i> Whatsapp  +94 711758851   <br>
                             <i class="fab fa-linkedin"></i> Linkedin <br>
                             <i class="fab fa-github"></i> GitHub <br>
