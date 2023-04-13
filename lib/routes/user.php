@@ -23,7 +23,14 @@
             </div>
         </div>
 
-        
+        <div class="main-grid">
+            <div class="row">
+                <div class="col">hi</div>
+                <div class="col">hi</div>
+                <div class="col">hi</div>
+            </div>
+        </div>
+
         <?php include("../layouts/loged_footer.php");?>
     </div>
 </div>
