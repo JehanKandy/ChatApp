@@ -36,7 +36,7 @@
                             <span style="color:#171515;"><i class="fab fa-github"></i> GitHub </span> <br>
                             <span style="color:#E1306C;"><i class="fab fa-instagram"></i> Instagram </span> <br>
 
-                            <a href=""><button class="social-btn">Update Information</button></a>
+                            <a href="social_edit.php"><button class="social-btn">Update Information</button></a>
 
                         </div>
                     </div>
