@@ -118,6 +118,12 @@
         $con = Connection();
 
         if(empty($fb) || empty($whats) || empty($link) || empty($git) || empty($inster)){
+            return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
+                        <strong>ERROR : </strong> At Least one input must have value...!
+                        <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
+                </div>";
+        }
+        else{
             
         }
     }
