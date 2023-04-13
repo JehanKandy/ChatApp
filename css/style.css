@@ -167,6 +167,7 @@
     height: 50px;
     border-radius: 2px;
     transition: 0.5s;
+    margin-bottom: 50px;
 }
 .bck-btn:hover{
     background-color: rgb(42, 92, 230);
