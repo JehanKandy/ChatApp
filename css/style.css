@@ -205,3 +205,9 @@
 .footer-content a{
     text-decoration: none;
 }
+
+.social-media{
+    border: 2px solid rgb(219, 218, 218);
+    padding: 50px 40px;
+    margin-bottom: 20px;
+}
