@@ -27,7 +27,9 @@
             
             <div class="row gx-3">
                 <div class="col-md-4 ">
-                    <div class="p-3 social-info">Custom column padding</div>
+                    <div class="p-3 social-info">
+                        <div class="title">Stay Updated</div>
+                    </div>
                 </div>
                 <div class="col">
                     <div class="p-3 user-info">Custom column padding</div>
