@@ -30,7 +30,7 @@
                     <div class="p-3 social-info">
                         <div class="title">Stay Updated</div>
                         <div class="body">
-                            <i class="fab fa-facebook"></i> Facebook
+                            <i class="fab fa-facebook"></i> Facebook <br>
                             <i class="fab fa-whatsapp"></i> Whatsapp - +94 711758851    
 
                         </div>
