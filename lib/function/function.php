@@ -114,5 +114,10 @@
         }
     }
 
+    function social_links(){
+        $con = Connection();
+        
+    }
+
 
 ?>
