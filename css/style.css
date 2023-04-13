@@ -127,7 +127,10 @@
     border-radius: 5px;
     backdrop-filter: blur(5px);
     border: 2px solid rgb(219, 218, 218);
-
+}
+.social-info .title, .user-info .title{
+    text-align: center;
+    font-weight: 600;
 }
 
 
