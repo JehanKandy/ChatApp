@@ -47,7 +47,10 @@
                         <div class="body">
                             <div class="row">
                                 <div class="col-md-6">
-                                    Name : Jehan
+                                    Username : Jehan123
+                                </div>
+                                <div class="col-md-6">
+                                    First Name : Jehan
                                 </div>
                                 <div class="col-md-6">
                                     Last Name : Weerasuriya
