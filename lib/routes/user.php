@@ -49,7 +49,7 @@
                                 <div class="col-md-6">
                                     Username : <input type="text" class="dash-input" disabled >
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-md-6">
                                     First Name : <input type="text" class="dash-input" disabled>
                                 </div>
                             </div>
