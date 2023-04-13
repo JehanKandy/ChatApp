@@ -16,8 +16,15 @@
         <div class="update-info">
             <a href="user.php"><button class="bck-btn">Back</button></a>
 
+            <?php 
+                if(isset($_POST['update_social'])){
+                    $result = social_links();
+                    echo $result;
+                }
+            ?>
+
             <div class="social-media">
-                <form action="" method="post">
+                <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="post">
                     <div class="row">
                         <div class="col-md-6">
                             Facebook :  <br>
