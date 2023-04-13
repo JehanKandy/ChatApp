@@ -24,10 +24,9 @@
         </div>
 
         <div class="main-grid">
-            <div class="row">
-                <div class="col">hi</div>
-                <div class="col">hi</div>
-                <div class="col">hi</div>
+            <div class="row gx-2">
+                <div class="col-md-4" style="background:red;">hi</div>
+                <div class="col-md-8" style="background:green;">hi</div>
             </div>
         </div>
 
