@@ -7,8 +7,13 @@
             <a href="user.php"><button class="bck-btn">Back</button></a>
 
             <div class="social-media">
-                <div class="row gx-3">
-                    
+                <div class="row">
+                    <div class="col-md-6">
+
+                    </div>
+                    <div class="col-md-6">
+                        
+                    </div>
                 </div>
             </div>
             <br>
