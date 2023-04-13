@@ -18,7 +18,7 @@
 
             <?php 
                 if(isset($_POST['update_social'])){
-                    $result = social_links($_POST['facebook'],$_POST['whatsapp'],$_POST['linkedin'],$_POST['gitHub'].$_POST['instagram']);
+                    $result = social_links_add($_POST['facebook'],$_POST['whatsapp'],$_POST['linkedin'],$_POST['gitHub'].$_POST['instagram']);
                     echo $result;
                 }
             ?>

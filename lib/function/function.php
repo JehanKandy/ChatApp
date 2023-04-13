@@ -114,17 +114,17 @@
         }
     }
 
-    function social_links($fb,$whats,$link,$git,$inster){
+    function social_links_add($fb,$whats,$linkin,$git,$inster){
         $con = Connection();
 
-        if(empty($fb) || empty($whats) || empty($link) || empty($git) || empty($inster)){
+        if(empty($fb) || empty($whats) || empty($linkin) || empty($git) || empty($inster)){
             return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
                         <strong>ERROR : </strong> At Least one input must have value...!
                         <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
                 </div>";
         }
         else{
-            
+
         }
     }
 
