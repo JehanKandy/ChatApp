@@ -30,7 +30,7 @@
                     <div class="p-3 social-info">
                         <div class="title">Stay Updated</div>
                         <div class="body">
-                            
+                            <i class="fab fa-facebook"></i> facebook
                         </div>
                     </div>
                 </div>
