@@ -154,6 +154,7 @@
 .social-info .body .social-btn:hover{
     background-color: rgb(42, 92, 230);
     cursor: pointer;
+    color: white;
     box-shadow: 10px 10px 5px #aaaaaa;
 }
 
