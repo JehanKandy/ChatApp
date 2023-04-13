@@ -34,6 +34,11 @@
                             <input type="text" class="dash-input" name="instagram"> <br><br>   
                         </div>
                     </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <input type="submit" value="Update Information" name="update_social" class="user-info-btn">   
+                        </div>
+                    </div>
                 </form>
             </div>
             <br>
