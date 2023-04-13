@@ -29,6 +29,9 @@
                 <div class="col-md-4 ">
                     <div class="p-3 social-info">
                         <div class="title">Stay Updated</div>
+                        <div class="body">
+                            
+                        </div>
                     </div>
                 </div>
                 <div class="col">
