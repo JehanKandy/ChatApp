@@ -144,6 +144,9 @@
 .social-info .body .social-btn{
     width: 100%;
     margin-top: 25px;
+    border: 1px solid rgb(42, 92, 230);
+    background: transparent;
+    height: 50px;
 }
 
 .footer-content a{
