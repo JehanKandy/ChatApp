@@ -153,6 +153,8 @@
         $select_social_result = mysqli_query($con, $select_social);
         $select_social_row = mysqli_fetch_assoc($select_social_result);
 
+        $_SESSION['allSocial'] = $select_social_row;
+
         $facebook = $select_social_row['facebook'];
 
         // $social_view_all = "";
