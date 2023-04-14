@@ -158,8 +158,12 @@
         // $social_view_all = "";
 
          echo $facebook;
+    }
 
+    function view_username(){
+        $con = Connection();
 
+        $email = strval($_SESSION['LoginSession']);
     }
 
 
