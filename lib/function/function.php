@@ -144,5 +144,9 @@
         }
     }
 
+    function view_social(){
+        $con = Connection();
+    }
+
 
 ?>
