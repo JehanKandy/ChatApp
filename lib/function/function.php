@@ -153,6 +153,10 @@
         $select_social_result = mysqli_query($con, $select_social);
         $select_social_row = mysqli_fetch_assoc($select_social_result);
 
+        $social_view_all = "";
+
+        echo $social_view_all;
+
 
     }
 
