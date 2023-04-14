@@ -165,7 +165,12 @@
 
         $email = strval($_SESSION['LoginSession']);
 
-        $view_user = "SELECT username "
+        $view_user = "SELECT username FROM user_tbl WHERE email = '$email'";
+        $view_user_result = mysqli_query($con, $view_user);
+
+        $view_user_row = mysqli_fetch_assoc($view_user_result);
+        
+        echo $$view_user_row['username'];
     }
 
 
