@@ -164,6 +164,8 @@
         $con = Connection();
 
         $email = strval($_SESSION['LoginSession']);
+
+        $view_user = "SELECT username "
     }
 
 
