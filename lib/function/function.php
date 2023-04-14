@@ -130,7 +130,8 @@
             
             $email = strval($_SESSION['LoginSession']);
 
-            $update_social = "UPDATE social_tbl SET facebook='$fb', Whatsapp = '$whats', Linkedin = '$linkin', GitHub = '$git' " 
+            $update_social = "UPDATE social_tbl SET facebook='$fb', Whatsapp = '$whats', Linkedin = '$linkin', GitHub = '$git', Instagram = '$inster' WHERE email = '$email'"; 
+            $update_social_result = mysqli_query($con, $update_social);
         }
     }
 
