@@ -144,7 +144,7 @@
         }
     }
 
-    function view_social($facebook){
+    function view_social(){
         $con = Connection();
 
         $email = strval($_SESSION['LoginSession']);
@@ -157,7 +157,7 @@
 
         // $social_view_all = "";
 
-        // echo $social_view_all;
+         echo $facebook;
 
 
     }
