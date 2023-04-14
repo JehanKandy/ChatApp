@@ -18,13 +18,13 @@
 
             <?php 
                 if(isset($_POST['update_social'])){
-                    $result = social_links_add($_POST['facebook'],$_POST['whatsapp'],$_POST['linkedin'],$_POST['gitHub'].$_POST['instagram']);
+                    $result = social_links_add($_POST['facebook'],$_POST['whatsapp'],$_POST['linkedin'],$_POST['gitHub'],$_POST['instagram']);
                     echo $result;
                 }
             ?>
 
             <div class="social-media">
-                <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="post">
+                <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST">
                     <div class="row">
                         <div class="col-md-6">
                             Facebook :  <br>

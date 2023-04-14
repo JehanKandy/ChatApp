@@ -114,7 +114,7 @@
         }
     }
 
-    function social_links_add($fb,$whats,$linkin,$git,$inster){
+    function social_links_add($fb, $whats, $linkin, $git, $inster){
         $con = Connection();
 
         if(empty($fb) || empty($whats) || empty($linkin) || empty($git) || empty($inster)){
