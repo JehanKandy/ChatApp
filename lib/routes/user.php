@@ -30,7 +30,10 @@
                     <div class="p-3 social-info">
                         <div class="title">Stay Updated</div>
                         <div class="body">
-                            <span style="color:#3b5998;"><i class="fab fa-facebook"></i> Facebook </span> <br>
+                            <?php 
+                                view_social($facebook);
+                            ?>
+                            <span style="color:#3b5998;"><i class="fab fa-facebook"></i> Facebook </span> <?php view_social($facebook); ?><br>
                             <span style="color:#25D366;"><i class="fab fa-whatsapp"></i> Whatsapp </span>  <br>
                             <span style="color:#0072b1;"><i class="fab fa-linkedin"></i> Linkedin </span> <br>
                             <span style="color:#171515;"><i class="fab fa-github"></i> GitHub </span> <br>
