@@ -132,6 +132,15 @@
 
             $update_social = "UPDATE social_tbl SET facebook='$fb', Whatsapp = '$whats', Linkedin = '$linkin', GitHub = '$git', Instagram = '$inster' WHERE email = '$email'"; 
             $update_social_result = mysqli_query($con, $update_social);
+
+            if($update_social_result){
+                header("location:user.php");
+            }else{
+                return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
+                        <strong>ERROR : </strong> Cannot Process the task...!
+                        <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
+                </div>";
+            }
         }
     }
 
