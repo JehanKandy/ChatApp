@@ -144,7 +144,7 @@
         }
     }
 
-    function view_social(){
+    function view_social($facebook){
         $con = Connection();
 
         $email = strval($_SESSION['LoginSession']);
@@ -152,6 +152,8 @@
         $select_social = "SELECT * FROM social_tbl WHERE email = '$email'";
         $select_social_result = mysqli_query($con, $select_social);
         $select_social_row = mysqli_fetch_assoc($select_social_result);
+
+        $facebook = $select_social_row['facebook'];
 
         // $social_view_all = "";
 
