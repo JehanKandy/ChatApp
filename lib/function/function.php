@@ -146,6 +146,9 @@
 
     function view_social(){
         $con = Connection();
+
+        $email = strval($_SESSION['LoginSession']);
+
     }
 
 
