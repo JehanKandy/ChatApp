@@ -124,7 +124,7 @@
                 </div>";
         }
         else{
-
+            $update_social = "INSERT INTO"
         }
     }
 
