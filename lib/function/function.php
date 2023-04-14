@@ -124,7 +124,10 @@
                 </div>";
         }
         else{
-            $update_social = "INSERT INTO"
+            
+            $email = strval($_SESSION['LoginSession']);
+
+            $update_social = "UPDATE social_tbl SET email=''"
         }
     }
 
