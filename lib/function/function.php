@@ -117,22 +117,22 @@
         }
     }
 
-    // function social_links_add($fb, $whats, $linkin, $git, $inster){
-    //     $con = Connection();
+    function social_links_add($fb, $whats, $linkin, $git, $inster){
+        $con = Connection();
 
-    //     if(empty($fb) || empty($whats) || empty($linkin) || empty($git) || empty($inster)){
-    //         return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
-    //                     <strong>ERROR : </strong> At Least one input must have value...!
-    //                     <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
-    //             </div>";
-    //     }
-    //     else{
+        if(empty($fb) || empty($whats) || empty($linkin) || empty($git) || empty($inster)){
+            return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
+                        <strong>ERROR : </strong> At Least one input must have value...!
+                        <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
+                </div>";
+        }
+        else{
             
-    //         $email = strval($_SESSION['LoginSession']);
+            $email = strval($_SESSION['LoginSession']);
 
-    //         $update_social = "UPDATE social_tbl SET facebook='$fb', Whatsapp = '$whats', Linkedin = '$linkin', GitHub = '$git' " 
-    //     }
-    // }
+            $update_social = "UPDATE social_tbl SET facebook='$fb', Whatsapp = '$whats', Linkedin = '$linkin', GitHub = '$git' " 
+        }
+    }
 
 
 ?>
