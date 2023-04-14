@@ -149,6 +149,11 @@
 
         $email = strval($_SESSION['LoginSession']);
 
+        $select_social = "SELECT * FROM social_tbl WHERE email = '$email'";
+        $select_social_result = mysqli_query($con, $select_social);
+        $select_social_row = mysqli_fetch_assoc($select_social_result);
+
+
     }
 
 
