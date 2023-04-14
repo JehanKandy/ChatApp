@@ -157,7 +157,7 @@
 
         // $social_view_all = "";
 
-         echo $facebook;
+        echo $facebook;
     }
 
     function view_username(){
@@ -170,7 +170,28 @@
 
         $view_user_row = mysqli_fetch_assoc($view_user_result);
         
-        echo $$view_user_row['username'];
+        $empty_username = "SELECT * FROM social_tbl WHERE email = '$email'";
+        $empty_username_result = mysqli_query($con, $empty_username);
+        $empty_username_row = mysqli_fetch_assoc($empty_username_result);
+
+        if(empty($empty_username_row['facebook'])){
+            echo "add";
+        }
+        elseif(empty($empty_username_row['Whatsapp'])){
+            echo "add";
+        }
+        elseif(empty($empty_username_row['Linkedin'])){
+            echo "add";
+        }
+        elseif(empty($empty_username_row['GitHub'])){
+            echo "add";
+        }
+        elseif(empty($empty_username_row['Instagram'])){
+            echo "add";
+        }
+        else{
+            echo $view_user_row['username'];
+        }
     }
 
 
