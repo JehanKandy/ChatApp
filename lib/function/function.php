@@ -60,6 +60,9 @@
                 $insert_user = "INSERT INTO user_tbl(username,email,pass,user_type,is_active,is_pending,join_date)VALUES('$username','$email','$pass','user',1,0,NOW())";
                 $insert_user_result = mysqli_query($con, $insert_user);
 
+                $insert_social = "INSERT INTO social_tbl(email)VALUE('$email')";
+                $insert_social_result = mysqli_query($con, $insert_social);
+
                 if($insert_user_result){
                     header("location:../../index.php");
                 }
