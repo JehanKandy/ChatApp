@@ -145,7 +145,7 @@
     }
 
     function view_facebook(){
-        
+
         $con = Connection();
 
         $email = strval($_SESSION['LoginSession']);
@@ -165,6 +165,22 @@
 
     function view_whats(){
         
+        $con = Connection();
+
+        $email = strval($_SESSION['LoginSession']);
+
+        $select_social = "SELECT * FROM social_tbl WHERE email = '$email'";
+        $select_social_result = mysqli_query($con, $select_social);
+        $select_social_row = mysqli_fetch_assoc($select_social_result);
+
+        $_SESSION['allSocial'] = $select_social_row;
+
+        $Whatsapp = $select_social_row['Whatsapp'];
+
+        // $social_view_all = "";
+
+        echo $Whatsapp;        
+
     }
 
     function view_username(){
