@@ -38,15 +38,15 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
-                                    <span>Address : </span>  <input type="text" class="dash-input" value="" ><br><br>
+                                    <span>Address : </span>  <input type="text" class="dash-input" value="" name="Address"><br><br>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-6">
-                                    <span>Mobile Number : </span>  <input type="text" class="dash-input" value="" ><br><br>
+                                    <span>Mobile Number : </span>  <input type="text" class="dash-input" value="" name="mobile"><br><br>
                                 </div>
                                 <div class="col-md-6">
-                                   <span>Data of Birth : </span>  <input type="text" class="dash-input" value="" ><br><br>
+                                   <span>Data of Birth : </span>  <input type="text" class="dash-input" value="" disabled><br><br>
                                 </div>
                             </div>
                             <div class="row">
