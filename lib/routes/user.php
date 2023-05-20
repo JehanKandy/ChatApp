@@ -32,7 +32,7 @@
                         <div class="body">
                             <span style="color:#3b5998;"><i class="fab fa-facebook"></i> Facebook </span> <a href="<?php view_facebook(); ?>" target="_blank"><?php view_username(); ?>.facebook</a><br>
                             <span style="color:#25D366;"><i class="fab fa-whatsapp"></i> Whatsapp </span>  <a href="<?php view_whats(); ?>" target="_blank"><?php view_username(); ?>.Whatsapp</a><br>
-                            <span style="color:#0072b1;"><i class="fab fa-linkedin"></i> Linkedin </span> <br>
+                            <span style="color:#0072b1;"><i class="fab fa-linkedin"></i> Linkedin </span> <a href="<?php view_whats(); ?>" target="_blank"><?php view_username(); ?>.Linkedin</a><br>
                             <span style="color:#171515;"><i class="fab fa-github"></i> GitHub </span> <br>
                             <span style="color:#E1306C;"><i class="fab fa-instagram"></i> Instagram </span> <br>
 
