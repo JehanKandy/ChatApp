@@ -12,7 +12,8 @@
             <div class="container">
                 <div class="col">
                     <div class="p-3 user-info">
-                        <div class="title">My Info</div>                        
+                        <div class="title">My Info</div> 
+                        <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST"></form>                       
                         <div class="body">
                             <div class="row">
                                 <div class="col-md-6">
