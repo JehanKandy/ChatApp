@@ -81,7 +81,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
-                                    <a href=""><button class="user-info-btn">Update Information</button></a>
+                                    <a href="user_data_update.php"><button class="user-info-btn">Update Information</button></a>
                                 </div>
                             </div>
                         </div>

@@ -50,7 +50,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
-                                    <a href=""><button class="user-info-btn">Update Information</button></a>
+                                   <button class="user-info-btn">Update Information</button>
                                 </div>
                             </div>
                         </div>
