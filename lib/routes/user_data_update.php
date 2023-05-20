@@ -51,7 +51,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
-                                   <button class="user-info-btn">Update Information</button>
+                                   <input type="submit" value="Update Information" class="user-info-btn" name="update_user">
                                 </div>
                             </div>
                         </div>
