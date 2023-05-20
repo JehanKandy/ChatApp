@@ -183,6 +183,24 @@
 
     }
 
+    function view_linkedin(){
+        $con = Connection();
+
+        $email = strval($_SESSION['LoginSession']);
+
+        $select_social = "SELECT * FROM social_tbl WHERE email = '$email'";
+        $select_social_result = mysqli_query($con, $select_social);
+        $select_social_row = mysqli_fetch_assoc($select_social_result);
+
+        $_SESSION['allSocial'] = $select_social_row;
+
+        $linkedin = $select_social_row['Linkedin'];
+
+        // $social_view_all = "";
+
+        echo $linkedin;     
+    }
+
     function view_username(){
         $con = Connection();
 
