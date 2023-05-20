@@ -3,7 +3,7 @@
 
 # Releases
 
-## v0.1.0 (20 May 2023)
+## v0.1.0 (20 May 2023) - Latest(Pre-release)
 
 - Updating Interfaces
 - connecting database
