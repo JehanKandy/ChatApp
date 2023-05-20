@@ -5,7 +5,9 @@
 
 ## v0.1.0 (20 May 2023)
 
-- 
+- Updating Interfaces
+- connecting database
+- implement functions
 
 # Developers
   <h4>JehanKandy</h4>
