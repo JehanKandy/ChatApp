@@ -1,6 +1,11 @@
 # ChatApp
  Web Based Chat App
 
+# Releases
+
+## v0.1.0 (20 May 2023)
+
+- 
 
 # Developers
   <h4>JehanKandy</h4>
