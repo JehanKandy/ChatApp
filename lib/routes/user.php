@@ -43,7 +43,7 @@
                 </div>
                 <div class="col">
                     <div class="p-3 user-info">
-                        <div class="title">My Info</div>
+                        <div class="title">My Info</div>                        
                         <div class="body">
                             <div class="row">
                                 <div class="col-md-6">
