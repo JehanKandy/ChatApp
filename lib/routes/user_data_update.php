@@ -33,7 +33,7 @@
                                     <span>Last Name : </span>  <input type="text" class="dash-input" value="" name="ln"><br><br>
                                 </div>
                                 <div class="col-md-6">
-                                   <span>Role : </span>  <input type="text" class="dash-input" value="" ><br><br>
+                                   <span>Role : </span>  <input type="text" class="dash-input" value="" disabled><br><br>
                                 </div>
                             </div>
                             <div class="row">
