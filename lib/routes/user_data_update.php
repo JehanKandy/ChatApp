@@ -9,7 +9,10 @@
     }
 
 ?>
+
+
             <div class="container">
+            <a href="user.php"><button class="logout-btn">Back</button></a><br><br>
                 <div class="col">
                     <div class="p-3 user-info">
                         <div class="title">My Info</div> 
