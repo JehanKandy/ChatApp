@@ -33,8 +33,8 @@
                             <span style="color:#3b5998;"><i class="fab fa-facebook"></i> Facebook </span> <a href="<?php view_facebook(); ?>" target="_blank"><?php view_username(); ?>.facebook</a><br>
                             <span style="color:#25D366;"><i class="fab fa-whatsapp"></i> Whatsapp </span>  <a href="<?php view_whats(); ?>" target="_blank"><?php view_username(); ?>.Whatsapp</a><br>
                             <span style="color:#0072b1;"><i class="fab fa-linkedin"></i> Linkedin </span> <a href="<?php view_linkedin(); ?>" target="_blank"><?php view_username(); ?>.Linkedin</a><br>
-                            <span style="color:#171515;"><i class="fab fa-github"></i> GitHub </span> <br>
-                            <span style="color:#E1306C;"><i class="fab fa-instagram"></i> Instagram </span> <br>
+                            <span style="color:#171515;"><i class="fab fa-github"></i> GitHub </span> <a href="<?php view_linkedin(); ?>" target="_blank"><?php view_username(); ?>.Linkedin</a><br>
+                            <span style="color:#E1306C;"><i class="fab fa-instagram"></i> Instagram </span> <a href="<?php view_linkedin(); ?>" target="_blank"><?php view_username(); ?>.Linkedin</a><br>
 
                             <a href="social_edit.php"><button class="social-btn">Update Information</button></a>
 
