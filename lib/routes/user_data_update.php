@@ -9,8 +9,8 @@
     }
 
 ?>
-
-<div class="col">
+            <div class="container">
+                <div class="col">
                     <div class="p-3 user-info">
                         <div class="title">My Info</div>                        
                         <div class="body">
@@ -56,6 +56,7 @@
                         </div>
                     </div>
                 </div>
+            </div>
 
 
 
